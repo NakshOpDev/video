@@ -14,6 +14,9 @@ echo "
 #######################################################################################"
 echo "Select an option:"
 echo "1) LXDE - XRDP"
+echo "2) PufferPanel"
+echo "3) Install Basic Packages"
+echo "4) Install Nodejs"
 read option
 
 if [ $option -eq 1 ]; then
